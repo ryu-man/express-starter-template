@@ -1,0 +1,36 @@
+{
+  "name": "express-starter-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "ryuman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryu-man/express-starter-template.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "express",
+    "mongoose",
+    "mongodb"
+  ],
+  "nodemonConfig": {
+    "delay": "1000"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "watch": "nodemon app.js",
+    "debug": "nodemon --inspect app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "nodemon": "^1.19.0"
+  }
+}
